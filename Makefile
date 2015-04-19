@@ -1,7 +1,7 @@
-all: part
+all: df
 
-part: part.c
-	gcc -Wall -g part.c -o part
+df: df.c
+	gcc -Wall -g df.c -o df
 
 clean:
-	rm part
+	rm -f df
